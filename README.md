@@ -10,7 +10,7 @@ Projects can't hold a `.pptx` as knowledge, but it can `curl` one from here).
 ```
 geog-lesson-converter/
 ├── README.md
-├── Lesson_Converter_Rules_v1_5.md         # the converter playbook (also lives in the Project)
+├── Lesson_Converter_Rules_v1_7.md         # the converter playbook (also lives in the Project)
 └── house-style/
     └── house_style_v4.pptx                 # the 30-template house style (v4)
 ```
@@ -33,7 +33,7 @@ https://raw.githubusercontent.com/philoutram/geog-lesson-converter/main/house-st
 ## Project setup (do once)
 
 1. Create a Claude Project.
-2. Add **`Lesson_Converter_Rules_v1_5.md`** as Project knowledge (this is the
+2. Add **`Lesson_Converter_Rules_v1_7.md`** as Project knowledge (this is the
    detailed reference — the "how").
 3. Paste the block below into the Project's **custom instructions** (this is the
    always-on behaviour — the "do this every time", plus the fetch step and the
@@ -45,7 +45,7 @@ https://raw.githubusercontent.com/philoutram/geog-lesson-converter/main/house-st
 This project converts 60-minute Geography lesson PowerPoints into the 2026 house
 style (100-minute) for Exmouth Community College.
 
-The authority for HOW to convert is the file "Lesson Converter Rules v1.5" in
+The authority for HOW to convert is the file "Lesson Converter Rules v1.7" in
 this project's knowledge. Follow it.
 
 Default workflow for every lesson:
@@ -82,13 +82,13 @@ If you ever run it outside a Project, attach the source and paste:
 
 ```
 Convert this 60-min Geography lesson into the 2026 house style, following the
-attached Lesson Converter Rules v1.5. Download the House Style v4 from
+attached Lesson Converter Rules v1.7. Download the House Style v4 from
 https://raw.githubusercontent.com/philoutram/geog-lesson-converter/main/house-style/house_style_v4.pptx
 first. Source-first, strict chrome / flexible body. Give me the mapping table and
 check in on unclear matches before building; run the pre-ship gate before
 delivering.
 ```
-(…and attach `Lesson_Converter_Rules_v1_5.md` too, since there's no Project knowledge.)
+(…and attach `Lesson_Converter_Rules_v1_7.md` too, since there's no Project knowledge.)
 
 ## Versioning
 
